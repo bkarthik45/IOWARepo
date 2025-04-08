@@ -1,5 +1,7 @@
 **Description:**  This is a full-stack web application that allows university employees to submit reimbursement requests by providing purchase details and uploading receipt files. It includes a .NET 6 backend API with MySQL for data storage and an Angular frontend for form submission and viewing past submissions. The system validates input data, handles file uploads, and stores receipt files securely, enabling a streamlined and user-friendly reimbursement process.
 **How to run the app:** : 
+
+
 **Backend** :
 1) Clone the backend repo and open the solution in Visual Studio.
 2)Update the MySQL password in appsettings.json:
@@ -22,7 +24,7 @@ To avoid inconsistencies and ensure stable communication between frontend and ba
 **
 Swagger should now load and your endpoints should work without needing to run migrations.
 
-FrontEnd:
+**FrontEnd:**
 1)Navigate to the frontend folder  (university-reimbursement-ui)
 2) Install Dependencies 
 Run npm install
