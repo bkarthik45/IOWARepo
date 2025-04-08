@@ -5,10 +5,10 @@
 
 
 **Backend** :
-1  Clone the backend repo and open the solution in Visual Studio.
+1  )  Clone the backend repo and open the solution in Visual Studio.
 
    
-2  Update the MySQL password in appsettings.json:
+2  )  Update the MySQL password in appsettings.json:
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=reimbursementsdb;User=root;Password=YOUR_MYSQL_PASSWORD;"
 }
