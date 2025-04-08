@@ -14,19 +14,19 @@
 }
 
 
-3  Set up the database:
+3  )  Set up the database:
 
 
 CREATE DATABASE reimbursementsdb;
 Use reimbursementsdb;
 
 
-4  Import the Schema
+4  )  Import the Schema
 Open a new SQL tab
 Go to File -> Open SQL Script -> Select schema.sql and run it
 
 
-5  **Launch your project in Visual Studio using the correct launch profile (preferably https).**
+5  )  **Launch your project in Visual Studio using the correct launch profile (preferably https).**
 
    
 If you're using IIS Express to run the backend in Visual Studio, the port may be different from 7125. Always make sure the apiUrl in the Angular frontend (reimbursement.service.ts) matches the actual port the backend is using — you can check this in launchSettings.json or the browser when the API runs.
@@ -44,14 +44,14 @@ Swagger should now load and your endpoints should work without needing to run mi
 **FrontEnd:**
 
 
-1  Navigate to the frontend folder  (university-reimbursement-ui)
+1  )  Navigate to the frontend folder  (university-reimbursement-ui)
 
 
-2  Install Dependencies 
+2  )  Install Dependencies 
 Run npm install
 
 
-3  Check the backend API URL in reimbursement.service.ts:
+3  )  Check the backend API URL in reimbursement.service.ts:
 private apiUrl = 'https://localhost:7125/api/reimbursements';
 
 
@@ -59,7 +59,7 @@ This should match your backend HTTPS port.  If you're running the backend with I
 You can find the correct port by checking launchSettings.json or Swagger UI URL when backend starts.
 
 
-4  ng serve 
+4  )  ng serve 
 
 
 
